@@ -12,3 +12,7 @@
 - 네트워크 설정을 업데이트 
   - 네트워크 설정을 위한 KEY (암호) 업데이트
   
+### 통신 프로토콜 
+- Eddystone or Beacon 어느것을 사용할지 조사
+- Eddystone
+- BLE 단순 beacon
