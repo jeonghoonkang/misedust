@@ -36,7 +36,7 @@
 - 저전력 or 확인용 or 단순기능용 버튼 필요 여부 고민
 - 동작에 따른 LED를 미리 정의 할 필요 있음
 
-### LED Define
+### LED Working Define
 - Power ON : R&G Toggle 10회(0.5초)
 - Monitoring : 미세먼지 수치 X이하 Green Toggle(2초), 초과 Red Toggle(1초) 
 - BLE Connect(필요?) : Red XOR GREEN Toggle (0.5초)
