@@ -19,6 +19,8 @@
     https://developer.estimote.com/eddystone/ 를 통해 대략 확인 가능
 - BLE 단순 beacon은 페어링 방식에서 beacon을 개선해서 사용(임의수정)<br>
     ble만 있을때 0.1 sec로 beacon을 전송했을때 CR2032 동전베터리로 2주 동작함
+- beacon 테스트용 코드 Sensortag 코드 확보 테스트 필요
+- eddystone 테으트용 코드 eddystone 코드 확보 테스트 필요
 
 ### 전원 연결
 - USB 어뎁터 에서 5V를 out -> 미세먼지 센서 -> ble 센서
@@ -29,6 +31,16 @@
 ### Display
 - LED를 사용할것
 - 3색을 사용하는게 좋을것으로 보임
+- 현재 RED, GREEN 2가지 LED를 붙임
+- LED 디밍 되는지 확인 필요 (software)
+- 저전력 or 확인용 or 단순기능용 버튼 필요 여부 고민
+- 동작에 따른 LED를 미리 정의 할 필요 있음
+
+### LED Define
+- Power ON : R&G Toggle 10회(0.5초)
+- Monitoring : 미세먼지 수치 X이하 Green Toggle(2초), 초과 Red Toggle(1초) 
+- BLE Connect(필요?) : Red XOR GREEN Toggle (0.5초)
+- 베터리 잔량(필요?) : Red & Green Toggle (0.3초)
 
 ### 기타
 - 구름모양 반투명 아크릴을 붙여서 눈에 잘 띄게 할것
