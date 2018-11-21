@@ -18,6 +18,7 @@
 - Wi-Fi, ifconfig 정보 등
 - 네트워크 설정을 업데이트 
   - 네트워크 설정을 위한 KEY (암호) 업데이트
+--위 기능은 beacon으로는 할수 없고 eddystone로 테스트 해보겠음
   
 ### 통신 프로토콜 
 - Eddystone or Beacon 어느것을 사용할지 조사
@@ -48,6 +49,7 @@
 - Monitoring : 미세먼지 수치 X이하 Green Toggle(2초), 초과 Red Toggle(1초) 
 - BLE Connect(필요?) : Red XOR GREEN Toggle (0.5초)
 - 베터리 잔량(필요?) : Red & Green Toggle (0.3초)
+- led 컨트롤 완료
 
 ### 기타
 - 구름모양 반투명 아크릴을 붙여서 눈에 잘 띄게 할것
