@@ -1,5 +1,12 @@
-# BLE 모듈 기능  
-## DustB 
+# BLE 기반 시스템 기능  
+## 개요
+- 시스템은 BLE LED, Dust 센서, Raspi 로 구성됨
+  - 시스템 조합1 BLE LED / Raspi + Dust 센서
+  - 조합2 BLE LED / BLE Dust / Raspi 
+
+## Dust LED
+  - DUST 센서 데이터를 읽어서, Red / Blue / Green 등의 LED로 색깔 변환
+  
 ### Dust + Bluetooth 모듈 작업 
 
 ## BLE 기능 요구 사항
