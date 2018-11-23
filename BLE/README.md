@@ -29,6 +29,9 @@
     ble만 있을때 0.1 sec로 beacon을 전송했을때 CR2032 동전베터리로 2주 동작함
 - beacon 테스트용 코드 Sensortag 코드 확보 테스트 필요
 - eddystone 테으트용 코드 eddystone 코드 확보 테스트 필요
+- 추가적으로 Host Test, Simple Broadcaster, Central, Observer, Peripheral 등 프로그램이 있음<br>
+   http://dev.ti.com/tirex/content/simplelink_cc2640r2_sdk_1_00_00_22/docs/blestack/html/cc2640/sample-applications.html
+- BLE 요구 기능을 구현하기 위해서는 좀더 단순한 방식의 BLE 예제를 참고해볼 필요가 
 
 ### 전원 연결
 - USB 어뎁터 에서 5V를 out -> 미세먼지 센서 -> ble 센서
