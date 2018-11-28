@@ -42,7 +42,7 @@
 ### Display
 - LED를 사용할것
 - 3색을 사용하는게 좋을것으로 보임
-- 현재 RED, GREEN 2가지 LED를 붙임
+- 현재 RED, GREEN, BLUE 3가지 LED를 붙임
 - LED 디밍 되는지 확인 필요 (software)
 - 저전력 or 확인용 or 단순기능용 버튼 필요 여부 고민
 - 동작에 따른 LED를 미리 정의 할 필요 있음
@@ -50,7 +50,7 @@
 ### LED Working Define
 - Power ON : R&G Toggle 10회(0.5초)
 - Monitoring : 미세먼지 수치 X이하 Green Toggle(2초), 초과 Red Toggle(1초) 
-- BLE Connect(필요?) : Red XOR GREEN Toggle (0.5초)
+- BLE Connect(필요?) : Blue Toggle (1초)
 - 베터리 잔량(필요?) : Red & Green Toggle (0.3초)
 - led 컨트롤 완료
 
