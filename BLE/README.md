@@ -47,6 +47,7 @@
 - LED 디밍 되는지 확인 필요 (software)
 - 저전력 or 확인용 or 단순기능용 버튼 필요 여부 고민
 - 동작에 따른 LED를 미리 정의 할 필요 있음
+- Fade in or out 구현 
 
 ### LED Working Define
 - Power ON : R&G Toggle 10회(0.5초)
