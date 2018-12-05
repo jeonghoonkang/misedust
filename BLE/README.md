@@ -60,4 +60,4 @@
 
 ### Sensor Data Parsing
 - SensorTag에 + Dust Task 추가 후 베터리 켜짐과 동시에 데이터 Parsing 동작하는 형태로 코드 완료
-- UART 버그가 있어서 디버깅중인데 TI git이 다죽엇습니다. 시간이 좀 걸리겠네요.. 털썩...
+- 데이터 수신 코드 완료, PM2.5, PM10 데이터 Parsing 완료, 기본 동작은 센서에서 1초마다 ble모드로 데이터 전송
