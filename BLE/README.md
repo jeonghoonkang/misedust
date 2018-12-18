@@ -62,3 +62,8 @@
 ### Sensor Data Parsing
 - SensorTag에 + Dust Task 추가 후 베터리 켜짐과 동시에 데이터 Parsing 동작하는 형태로 코드 완료
 - 데이터 수신 코드 완료, PM2.5, PM10 데이터 Parsing 완료, 기본 동작은 센서에서 1초마다 ble모드로 데이터 전송
+
+
+### Hardware
+- TI사의 CC2650 테스트 완료
+- Nordic사의 NRF51822 모듈 테스트 
